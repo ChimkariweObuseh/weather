@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Chimwi's Weather App</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+
+<div class="card">
+    <div class="search">
+      <input type="text" placeholder="Enter location:" spellcheck="false">
+      <button>
+        <img src="IMG_5424.png" alt="Search" style="height: 30px; width: 30px;">
+      </button>
+    </div>
+    <div class="error" style="color: #181F1C;">
+      <h2>
+        INVALID LOCATION
+      </h2>
+    </div>
+    <div class="weather">
+      <img src="IMG_5425.png" class="weather-icon">
+      <h1 class="temp">12°C</h1>
+      <h2 class="city">Naas</h2>
+      <div class="feeling">
+        <img src="IMG_5435.png" class="feelslike-icon">
+      <p>Feels Like:</p>
+          <p class="feelslike">50%</p>
+      </div>
+      <div class="details">
+        <div class="col">
+          <img src="IMG_5427.png">
+          <div class="noshadow">
+            <p class="humidity">50%</p>
+            <p>Humidity</p>
+          </div>
+        </div>
+        <div class="col">
+          <img src="IMG_5426.png">
+          <div class ="noshadow">
+            <p class="wind">15 km/h</p>
+            <p>Wind Speed</p>
+          </div>
+        </div>
+      </div>
+      <div class="details">
+        <div class="col">
+          <img src="IMG_5438.png">
+          <div class="noshadow">
+            <p class="sunrise">50%</p>
+            <p>Sunrise</p>
+          </div>
+        </div>
+        <div class="col">
+          <img src="IMG_5439.png">
+          <div class ="noshadow">
+            <p class="sunset">15 km/h</p>
+            <p>Sunset</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+
+</body>
+
+</html>

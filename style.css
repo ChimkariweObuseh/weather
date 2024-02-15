@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400&display=swap');
+
+* {
+   margin: 0;
+    padding: 0;
+    font-family: "Lexend", sans-serif;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);;
+}
+body {
+    background: #222;
+}
+
+.card {
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    color: white;
+    margin: 100px auto 0;
+    border-radius: 25px;
+    padding: 40px 35px;
+    text-align: center;
+    margin-bottom: 50px;
+    border: 5px solid black;
+    box-shadow: inset 0px 7px 15px 0px rgba(0, 0, 0, 0.2);
+}
+
+
+.search {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search input {
+    border: 5px solid black;
+    outline: 0;
+    background: #ebfffc;;
+    color: black;
+    padding: 10px;
+    height: 60px;
+    border-radius: 30px;
+    font-size: 18px;
+    padding-right: 5px;
+    width: 45vw;
+    box-shadow: inset 7px 7px 15px 7px rgba(0, 0, 0, 0.2);
+}
+
+.search button {
+    border: 5px solid black;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    box-shadow: inset 7px 7px 15px 7px rgba(0, 0, 0, 0.2);
+}
+
+.search button img {
+    width: 16px;
+}
+
+.weather-icon {
+    width: 170px;
+    margin-top: 50px;
+    margin-bottom: 2px;
+}
+
+.weather h1 {
+    font-size: 80px;
+    font-weight: 500;
+}
+
+.weather h2 {
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+
+.col {
+    display: flex;
+    align-items: center;
+    text-align: left;
+  /*  margin: 0 10px; */
+}
+
+.col img {
+    width: 40px;
+    margin: 5px;
+}
+
+.humidity, .wind, .feelslike, .sunrise, .sunset {
+    font-size: 28px;
+}
+
+.weather {
+    display: none;
+}
+
+.error {
+    text-align: center;
+    margin-top: 50px;
+    margin-left: auto;
+    background: red;
+    padding: 10px;
+    border-radius: 50px;
+    border: 5px solid black;
+    font-weight: 50px;
+    display: none;
+}
+
+img, h1, h2, p, .search, .weather, .humidity, .wind, .col, .noshadow, .details, .feeling {
+    box-shadow: none;
+}
+
+.col .seperate {
+    display: block;
+}
+
+.feelslike-icon {
+    width: 50px;
+}
+
+.feeling {
+    margin-top: 35px;
+}
+
