@@ -57,7 +57,7 @@ document.querySelector(".wind").innerHTML = Math.round(data.wind.speed) + " km/h
     document.querySelector(".sunset").innerHTML = convertTimestamp(data.sys.sunset);
 
     
-    if (currentTime >= convertTimestamp(data.sys.sunset) || currentTime <= convertTimestamp(data.sys.sunrise)) {
+    if (currentTime >= convertTimestamp(data.sys.sunset)) {
         weatherIcon.src = "IMG_5440.png";
         gradientTransform("#252323", "#2f195f");
     } else {
